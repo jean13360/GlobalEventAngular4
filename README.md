@@ -2,6 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
+## Description 
+ Le but de ce projet etait de porter le comportement on et broadcast d'angularJS 1.5 sans reconstruire entierment le legacy.
+ 
+ Le service globalEvent crée un evenement et l'emet.
+ Le composant envoievent provoque l'emission de l'evenement lors du click.
+ Le composant recoitevent recoit l'evenement et affiche le résultat.
+ 
+ Ici , l'evenement emet un objet simple mais il peut emettre un objet bien plus complexe.
+ 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
